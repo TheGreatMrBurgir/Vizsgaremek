@@ -34,13 +34,15 @@ Backend (Laravel)
 
 cd backend
 composer install
-cp .env.example .env
+copy .env.example .env
 php artisan key:generate
 php artisan migrate --seed
+php artisan storage:link
 php artisan serve
 
 Frontend (Vue.js):
 cd frontend
+cd viewwebpage
 npm install
 npm run dev
 
