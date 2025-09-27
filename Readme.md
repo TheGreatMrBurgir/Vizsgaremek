@@ -2,10 +2,7 @@ SegítsVelem
 
 A SegítsVelem egy online platform, amely lehetővé teszi a rászorulók támogatását ruházati termékeken keresztül. A felhasználók regisztrálhatnak, böngészhetnek támogatási célokat (termékeket), leadhatják rendeléseiket, valamint kapcsolatba léphetnek az üzemeltetőkkel.
 Csapattagok
-
-- Horváth Csaba – Backend fejlesztés, adatmodell, API, hitelesítés, hibakezelés
-- Szőke Simon – Frontend fejlesztés (Vue.js), vizuális megjelenés, oldalstruktúra
-- Lokár Márk – Admin felület, vezérlőlogika, CRUD műveletek
+- Szőke Simon – Frontend fejlesztés (Vue.js), vizuális megjelenés, oldalstruktúra, Backend fejlesztés(laravel), adatmodell, API, hitelesítés, hibakezelés, vezérlőlogika, CRUD műveletek
 
 
 Technológiák
@@ -24,7 +21,6 @@ Főbb mappák és fájlok
  `frontend/`  Vue 3 alapú SPA felület 
  `database/migrations/`  Tábla definíciók 
  `app/Http/Controllers/`  Backend vezérlők 
- `resources/views/emails/`  Email sablonok 
  `tests/Feature/`  Backend tesztesetek 
 
 
@@ -47,3 +43,6 @@ npm install
 npm run dev
 
 
+megjegyzés:
+a .env-ben található MAILGUN_API_KEY és
+MAILGUN_DOMAIN-hoz tartozó kulcsot és domaint a készítőtől kell elkérni az email küldések működéséhez.
