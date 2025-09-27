@@ -1,0 +1,3 @@
+public/products/*
+!public/products/fix-*
+!.gitignore
