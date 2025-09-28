@@ -7,7 +7,7 @@
         <h2 @click="toggleAccordion(0)" class="accordion-header">Kik vagyunk?</h2>
         <div v-show="activeAccordion === 0" class="accordion-content">
           <p>
-Barátaimmal két dolog biztosan összeköt: gyerekkorunk óta sportolunk, és régóta fontos számunkra, hogy segítsünk a nálunk kevésbé szerencséseknek.          </p>
+Barátaimmal két dolog biztosan összeköt minket: gyerekkorunk óta sportolunk, és régóta fontos számunkra, hogy segítsünk a nálunk kevésbé szerencséseknek.          </p>
           <p>
 Kezdetben cipősdoboz-ajándékokkal támogattuk a rászoruló gyerekeket, mára nonprofit közösséggé váltunk. A Felszerelés Egyesület célja, hogy együtt, a közösség erejével érjünk el valódi változásokat.          </p>
           <p>
