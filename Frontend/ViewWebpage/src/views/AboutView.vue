@@ -7,19 +7,14 @@
         <h2 @click="toggleAccordion(0)" class="accordion-header">Kik vagyunk?</h2>
         <div v-show="activeAccordion === 0" class="accordion-content">
           <p>
-            Három barát vagyunk, akiket két dolog biztosan összeköt: gyerekkorunk óta sportolunk, és ugyanilyen régóta fontos számunkra, hogy segítsünk a nálunk kevésbé szerencséseknek.
-          </p>
+Barátaimmal két dolog biztosan összeköt: gyerekkorunk óta sportolunk, és régóta fontos számunkra, hogy segítsünk a nálunk kevésbé szerencséseknek.          </p>
           <p>
-            Kezdetben cipősdoboz-ajándékokkal támogattuk a rászoruló gyerekeket, mára nonprofit csapattá váltunk. A Felszerelés Egyesület célja, hogy közösen, a közösség erejével érjünk el valódi változásokat.       
-          </p>
+Kezdetben cipősdoboz-ajándékokkal támogattuk a rászoruló gyerekeket, mára nonprofit közösséggé váltunk. A Felszerelés Egyesület célja, hogy együtt, a közösség erejével érjünk el valódi változásokat.          </p>
           <p>
-            Edzéseink során saját bőrünkön tapasztaltuk, mennyit számít a teljesítményben a megfelelő ruházat – különösen tudatos edzés vagy versenysport esetén. A jó minőségű sportruházat azonban drága, sok család számára megfizethetetlen.
-          </p>
+Edzéseink és tapasztalataink alapján pontosan tudjuk, mennyit számít a teljesítményben a megfelelő ruházat – különösen tudatos edzés vagy versenysport esetén. A jó minőségű sportruházat azonban drága, sok család számára megfizethetetlen.          </p>
           <p>
-            A rendszeres mozgás elengedhetetlen a gyermekek fejlődése szempontjából: támogatja az izom- és csontrendszer erősödését, segít megelőzni a tartáshibákat, fenntartani az egészséges testsúlyt.
-          </p>
+Hisszük, hogy a rendszeres mozgás elengedhetetlen a gyermekek fejlődése szempontjából: támogatja az izom- és csontrendszer erősödését, segít megelőzni a tartáshibákat, és hozzájárul az egészséges testsúly fenntartásához.          </p>
           <p>
-            Számunkra természetes, hogy egy sportruha megfelelő méretű, minőségi anyagból készül, támogatja a mozgást, védi a bőrt és segíti a hőszabályozást. Sajnos ez nem mindenkinek alapvetés. Mi ezen szeretnénk változtatni.
           </p>
         </div>
       </section>
